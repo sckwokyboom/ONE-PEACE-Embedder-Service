@@ -3,8 +3,8 @@ from concurrent import futures
 
 import grpc
 import numpy as np
-import one_peace_pb2 as pb2
-import one_peace_pb2_grpc as pb2_grpc
+import one_peace_service_pb2 as pb2
+import one_peace_service_pb2_grpc as pb2_grpc
 from PIL import Image
 from one_peace_embedder import OnePeaceMultimodalEmbedder
 
