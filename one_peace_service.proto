@@ -5,16 +5,16 @@ service OnePeaceEmbedder {
 }
 
 message TextRequest {
-  string text = 1;
+  required string text = 1;
 }
 
 message ImageRequest {
-  bytes content = 1;
+  required bytes content = 1;
 }
 
 message AudioRequest {
-  bytes content = 1;
-  int32 sample_rate = 2;
+  required bytes content = 1;
+  required int32 sample_rate = 2;
 }
 
 message VectorResponse {
