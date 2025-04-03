@@ -1,3 +1,7 @@
+syntax = "proto3";
+
+package one_peace_embedder;
+
 service OnePeaceEmbedder {
   rpc EncodeText(TextRequest) returns (VectorResponse);
   rpc EncodeImage(ImageRequest) returns (VectorResponse);
