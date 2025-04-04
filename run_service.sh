@@ -1,0 +1,1 @@
+nohup python3 one_peace_service.py > op_service.log 2>&1 &
