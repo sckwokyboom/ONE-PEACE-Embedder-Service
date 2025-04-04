@@ -7,6 +7,7 @@ import torch
 from PIL import Image
 
 from interfaces import ImageEmbedder, TextEmbedder, AudioEmbedder
+from torchvision import transforms
 
 # from torchvision import transforms
 ONE_PEACE_GITHUB_REPO_DIR_PATH = '/home/meno/anymodal/Cloudberry-Storage-Any-Modal/ONE-PEACE/'
