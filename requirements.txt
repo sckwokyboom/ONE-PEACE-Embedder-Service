@@ -4,7 +4,7 @@ grpcio>=1.53.0
 grpcio-tools>=1.53.0
 opencv-python==4.7.0.72
 requests==2.28.1
-tensorboardX==2.6
+tensorboardX==2.6.2.2
 einops==0.6.1
 soundfile==0.12.1
 omegaconf==2.0.6
