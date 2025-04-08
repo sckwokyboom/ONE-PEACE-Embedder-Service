@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package one_peace_embedder;
+package generated;
 
 service OnePeaceEmbedder {
   rpc EncodeText(TextRequest) returns (VectorResponse);
